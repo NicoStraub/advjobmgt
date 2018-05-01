@@ -1,0 +1,23 @@
+{
+  "id": "f4fed299-3391-4371-abb4-46f0eafe28a4",
+  "name": "NC Projekt Management",
+  "publisher": "NAS conception GmbH, Duesseldorf",
+  "brief": "Extended Project Management",
+  "description": "Extended Project Management",
+  "version": "1.0.0.0",
+  "compatibilityId": "1.0.0.0",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "https://www.nasconception.de",
+  "logo": "",
+  "capabilities": [],
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "11.0.0.0",
+  "application": "11.0.0.0",
+  "idRange": {
+    "from": 64500,
+    "to": 64999
+  }
+}
