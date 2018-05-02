@@ -5,8 +5,8 @@ tableextension 64500 Jobext extends Job
            field(64500;"Accounting Method";Option)
         {
             CaptionML=DEU='Abrechnungsmethode',ENU='Accounting Method';
-            OptionMembers = " ","Time and Material","Flat-Rate";
-            OptionCaptionML=ENU=',Time and Material,Falt-Rate',DEU=',nach Verbrauch,pauschal';
+            OptionMembers = "Time and Material","Flat-Rate";
+            OptionCaptionML=ENU='Time and Material,Falt-Rate',DEU='nach Verbrauch,pauschal';
             trigger OnValidate();
             begin
                 IF "Accounting Method" = "Accounting Method"::"Flat-Rate" then
