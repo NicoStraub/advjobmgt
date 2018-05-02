@@ -36,13 +36,13 @@ page 64503 "Job Task Template"
     {
         area(processing)
         {
-            action(ActionName)
+            action("Apply Template")
             {
                 ApplicationArea = All;
     
                 trigger OnAction()
                 begin
-                    
+                    Report.RunModal(64500);
                 end;
             }
         }

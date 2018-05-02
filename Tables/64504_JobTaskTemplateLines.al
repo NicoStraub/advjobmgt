@@ -1,5 +1,6 @@
 table 64504 "Job Task Template Line"
 {
+    DataCaptionFields = "Job Task Template",Description; 
 
     fields
     {
